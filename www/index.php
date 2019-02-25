@@ -55,4 +55,3 @@ elseif (isset($_GET['logout'])) {
   $auth = new \SimpleSAML\Auth\Simple($authsource);
   $auth->logout();
 }
-?>
